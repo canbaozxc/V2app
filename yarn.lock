@@ -4387,6 +4387,11 @@ jsbn@~0.1.0:
   resolved "https://registry.npm.taobao.org/jsbn/download/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
+jsencrypt@^3.0.0-rc.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/jsencrypt/-/jsencrypt-3.2.1.tgz#09766983cc760088ff26b12fe7e574252af97727"
+  integrity sha512-k1sD5QV0KPn+D8uG9AdGzTQuamt82QZ3A3l6f7TRwMU6Oi2Vg0BsL+wZIQBONcraO1pc78ExMdvmBBJ8WhNYUA==
+
 jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.npm.taobao.org/jsesc/download/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
@@ -5214,9 +5219,9 @@ oauth-sign@~0.9.0:
   resolved "https://registry.npm.taobao.org/oauth-sign/download/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU=
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
-  resolved "https://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject-assign%2Fdownload%2Fobject-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
 object-copy@^0.1.0:
@@ -5514,9 +5519,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npm.taobao.org/path-parse/download/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -7085,10 +7090,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npm.taobao.org/swiper/download/swiper-4.5.0.tgz#4d870bec4f5abe2fb259325849dd2641c9243c0d"
-  integrity sha1-TYcL7E9avi+yWTJYSd0mQckkPA0=
+swiper@^4.0.7:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.5.1.tgz#ed43998e780ceb478610079c8d23fd425eca636f"
+  integrity sha512-se6I7PWWu950NAMXXT+ENtF/6SVb8mPyO+bTfNxbQBILSeLqsYp3Ndap+YOA0EczOIUlea274PKejT6gKZDseA==
   dependencies:
     dom7 "^2.1.3"
     ssr-window "^1.0.1"
@@ -7547,6 +7552,14 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-awesome-swiper@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vue-awesome-swiper/-/vue-awesome-swiper-3.1.3.tgz#05500b501ffb3fec9bf7eb9985bcf4ae8360ed9e"
+  integrity sha512-E7suzkyApO8vNZbgdEnjSmnpsmQZyRvSVXJ7sey3XYwKPOkLhH3+GnHroBw+5PZIQXvWBwdCeQsPG1xQ1r1Rhg==
+  dependencies:
+    object-assign "^4.1.1"
+    swiper "^4.0.7"
 
 vue-cli-plugin-iview@^1.0.6:
   version "1.0.6"
